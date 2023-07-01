@@ -1,14 +1,12 @@
 
 --  User Table 
-CREATE TABLE `studentdb`.`user` (
+CREATE TABLE `sql12629842`.`user` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `first_name` VARCHAR(45) NOT NULL,
-  `last_name` VARCHAR(45) NOT NULL,
-  `email` VARCHAR(250) NOT NULL,
-  `password` VARCHAR(255) NOT NULL,
-  `contact` VARCHAR(12) NOT NULL,
-  `address` VARCHAR(255) NOT NULL,
-  `image` VARCHAR(255) NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `dob` VARCHAR(45) NOT NULL,
+  `country` VARCHAR(250) NOT NULL,
+  `image` VARCHAR(255) NOT NULL,
+  `createdAt` TIMESTAMP NOT NULL,
   PRIMARY KEY (`id`));
 -- Subject Table
 CREATE TABLE `studentdb`.`subjects` (
