@@ -11,3 +11,5 @@ CREATE TABLE `sql12629842`.`user` (
 
 -- Countries
 CREATE TABLE `sql12629842`.`countries` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `code` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) 
+
+-- Exapmle
